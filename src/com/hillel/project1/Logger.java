@@ -7,6 +7,7 @@ public class Logger {
     public static final String ANSI_PURPLE = "\u001B[35m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
+
     public void debug(String text){
         System.out.println((ANSI_GREEN + "DEBUG: ") + ANSI_WHITE + text );
     }
